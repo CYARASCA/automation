@@ -47,7 +47,7 @@ public class BusquedaEbayPage extends BaseDriver {
         WebDriverWait wait = new WebDriverWait(driver,20);
         wait.until(ExpectedConditions.elementToBeClickable(checkboxTalla));//wait explicito
 
-
+//test
         checkboxTalla.click();
 
     }
