@@ -1,0 +1,124 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Obtener el precio de una zapatilla marca ADIDAS de talla 9 desde Ebay",
+        "description": "",
+        "id": "busqueda---buscar-producto-en-ebay;obtener-el-precio-de-una-zapatilla-marca-adidas-de-talla-9-desde-ebay",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5136957400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "ingreso a la web de \"https://www.ebay.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.ebay.com/\"",
+                  "offset": 20
+                }
+              ],
+              "location": "BusquedaEbaySteps.ingreso_a_la_web_de(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2391520700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "realizo una busqueda de \"zapatilla\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"zapatilla\"",
+                  "offset": 24
+                }
+              ],
+              "location": "BusquedaEbaySteps.realizo_una_busqueda_de(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2494312200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "elijo la talla 9",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9",
+                  "offset": 15
+                }
+              ],
+              "location": "BusquedaEbaySteps.elijo_la_talla(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 81000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "elijo la marca \"ADIDAS\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ADIDAS\"",
+                  "offset": 15
+                }
+              ],
+              "location": "BusquedaEbaySteps.elijo_la_marca(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "visualizo los resultados",
+            "match": {
+              "location": "BusquedaEbaySteps.visualizo_los_resultados()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "obtengo el precio",
+            "match": {
+              "location": "BusquedaEbaySteps.obtengo_el_precio()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Busqueda - Buscar producto en Ebay",
+    "description": "",
+    "id": "busqueda---buscar-producto-en-ebay",
+    "keyword": "Feature",
+    "uri": "src\\main\\resources\\Features\\BusquedaProdEbay.feature",
+    "tags": []
+  }
+]
